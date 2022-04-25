@@ -1,7 +1,6 @@
 pipeline 
 { agent any stages 
- { stage
-  ('Testing') 
+ { stage('Testing') 
   { steps 
    { echo 'running Tests' bat 'mvn test' 
    } 
